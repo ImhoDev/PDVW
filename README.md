@@ -37,4 +37,16 @@
 
 ## Acerca del projecto
 
-Iniciativa para crer un punto de venta en laravel
+Pasos para inmplementar el proyecto
+
+1-. Descargar/instalar laragon
+2-. Decargar/instalar git
+3-. Abrrir git en el directorio www de laragon
+4-. clonar repositorio "git clone https://github.com/ImhoDev/puntodeventaweb.git"
+5-. Desde la tarminal de laragon/puntodeventaweb instalar las dependencias de PHP "composer install"
+6-. Desde la tarminal de laragon/puntodeventaweb instalar las dependencias de JS "npm install && npm run dev"
+7-. Crear la base de datos "puntodeventa" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE puntodeventaweb;"
+8-. Duplicar y renombrar .env.example a .env
+9-. Configurar el archivo .env con los datos de msql
+10-. Reinciar laragon desde la consola con "reload laragon" desde el escritorio principal de laragon que habitualmente es C:\laragon
+11-. Vistar "http://puntodeventaweb.test" desde cualquiere navegador.
