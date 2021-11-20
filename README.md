@@ -50,3 +50,4 @@ Pasos para inmplementar el proyecto
 <p>9-. Configurar el archivo .env con los datos de msql</p>
 <p>10-. Reinciar laragon desde la consola con "reload laragon" desde el escritorio principal de laragon que habitualmente es C:\laragon </p>
 <p>11-. Vistar "http://puntodeventaweb.test" desde cualquiere navegador.</p>
+<p>12-. Vemos que sale un error, hay que generar el key ejecuentado "php artisan key:generate"</p>
