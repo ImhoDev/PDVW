@@ -41,13 +41,14 @@ Pasos para inmplementar el proyecto
 
 <p>1-. Descargar/instalar laragon</p>
 <p>2-. Decargar/instalar git</p>
-<p>3-. Abrrir git en el directorio www de laragon</p>
+<p>3-. Abrir git en el directorio www de laragon</p>
 <p>4-. clonar repositorio "git clone https://github.com/ImhoDev/puntodeventaweb.git"</p>
-<p>5-. Desde la tarminal de laragon/puntodeventaweb instalar las dependencias de PHP "composer install"</p>
-<p>6-. Desde la tarminal de laragon/puntodeventaweb instalar las dependencias de JS "npm install && npm run dev"</p>
-<p>7-. Crear la base de datos "puntodeventa" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE puntodeventaweb;"</p>
+<p>5-. Desde la terminal de laragon/puntodeventaweb instalar las dependencias de PHP "composer install"</p>
+<p>6-. Desde la terminal de laragon/puntodeventaweb instalar las dependencias de JS "npm install && npm run dev"</p>
+<p>7-. Crear la base de datos "puntodeventaweb" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE puntodeventaweb;"</p>
 <p>8-. Duplicar y renombrar .env.example a .env</o>
-<p>9-. Configurar el archivo .env con los datos de msql</p>
+<p>9-. Configurar el archivo .env con los datos de mysql</p>
 <p>10-. Reinciar laragon desde la consola con "reload laragon" desde el escritorio principal de laragon que habitualmente es C:\laragon </p>
-<p>11-. Vistar "http://puntodeventaweb.test" desde cualquiere navegador.</p>
+<p>11-. Vistar "http://puntodeventaweb.test" desde cualquier navegador.</p>
 <p>12-. Vemos que sale un error, hay que generar el key ejecuentado "php artisan key:generate"</p>
+<p>13-. Sale error porque no hemos realizado las migraciones, para solucionar ejecutar las migraciones. </p>
