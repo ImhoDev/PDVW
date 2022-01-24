@@ -47,7 +47,7 @@ return [
 
     'logo' => '<b>Ventas</b>Web',
     'logo_img' => 'img/logo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo_img_class' => 'brand-image elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
     'logo_img_alt' => 'Ventas web logo',
@@ -188,12 +188,12 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
-    'password_reset_url' => 'password/reset',
-    'password_email_url' => 'password/email',
+    'password_reset_url' => 'reset-password',
+    'password_email_url' => 'forgot-password',
     'profile_url' => false,
 
     /*
@@ -228,7 +228,7 @@ return [
         // Navbar items:
         [
             'type'         => 'navbar-search',
-            'text'         => 'search',
+            'text'         => 'buscar',
             'topnav_right' => true,
         ],
         [
@@ -236,10 +236,10 @@ return [
             'topnav_right' => true,
         ],
 
-        // Sidebar items:
+        // Sidebar items:  
         [
             'type' => 'sidebar-menu-search',
-            'text' => 'search',
+            'text' => 'buscar',
         ],
         [
             'text' => 'blog',
@@ -247,8 +247,133 @@ return [
             'can'  => 'manage-blog',
         ],
         [
+            'text'        => 'Inicio',
+            'url'         => 'admin',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 1,
+            'label_color' => 'success',
+        ],
+        [
+            'text'    => 'Ventas',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Nueva venta',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Ventas por mayor',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Historial de Ventas',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
+            'text'    => 'Compras',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Nueva compra',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Historial de compras',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
+            'text'    => 'Productos/Servicios',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Productos',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Servicios',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Categorias',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
+            'text'    => 'Inventario',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Productos en almacen',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Kardex',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Inventario actual',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
+            'text'    => 'Reportes',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Reporte de ventas',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Reporte de compras',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
+            'text'    => 'Administración',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Clientes',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Proveedores',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Usuarios',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
+            'text'    => 'Configuración',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'Idioma',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Horario',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Componentes',
+                    'url'  => '#',
+                ],
+            ],
+        ],
+        [
             'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'url'         => '#',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
@@ -263,44 +388,6 @@ return [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
         ],
         ['header' => 'labels'],
         [
