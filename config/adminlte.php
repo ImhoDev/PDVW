@@ -68,7 +68,7 @@ return [
     'usermenu_header' => false,
     'usermenu_header_class' => 'bg-primary',
     'usermenu_image' => false,
-    'usermenu_desc' => false,
+    'usermenu_desc' => true,
     'usermenu_profile_url' => false,
 
     /*
@@ -85,7 +85,7 @@ return [
 
     'layout_topnav' => null,
     'layout_boxed' => null,
-    'layout_fixed_sidebar' => null,
+    'layout_fixed_sidebar' => 'fixed',
     'layout_fixed_navbar' => null,
     'layout_fixed_footer' => null,
     'layout_dark_mode' => null,
@@ -249,13 +249,13 @@ return [
         [
             'text'        => 'Inicio',
             'url'         => 'admin',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'nav-icon fas fa-tachometer-alt',
             'label'       => 1,
             'label_color' => 'success',
         ],
         [
             'text'    => 'Ventas',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon fas fa-shopping-cart',
             'submenu' => [
                 [
                     'text' => 'Nueva venta',
@@ -273,7 +273,7 @@ return [
         ],
         [
             'text'    => 'Compras',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon fas fa-table',
             'submenu' => [
                 [
                     'text' => 'Nueva compra',
@@ -287,7 +287,7 @@ return [
         ],
         [
             'text'    => 'Productos/Servicios',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon far fa-plus-square',
             'submenu' => [
                 [
                     'text' => 'Productos',
@@ -305,7 +305,7 @@ return [
         ],
         [
             'text'    => 'Inventario',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon fas fa-book',
             'submenu' => [
                 [
                     'text' => 'Productos en almacen',
@@ -323,7 +323,7 @@ return [
         ],
         [
             'text'    => 'Reportes',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon far fa-calendar-alt',
             'submenu' => [
                 [
                     'text' => 'Reporte de ventas',
@@ -337,7 +337,7 @@ return [
         ],
         [
             'text'    => 'Administración',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon fas fa-users',
             'submenu' => [
                 [
                     'text' => 'Clientes',
@@ -355,7 +355,7 @@ return [
         ],
         [
             'text'    => 'Configuración',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'nav-icon fas fa-cog',
             'submenu' => [
                 [
                     'text' => 'Idioma',
@@ -381,12 +381,12 @@ return [
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
-            'url'  => 'admin/settings',
+            'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
             'text' => 'change_password',
-            'url'  => 'admin/settings',
+            'url'  => 'Team Settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
         ['header' => 'labels'],
