@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://salepropos.com/css/style.css"/>
 </head>
     {{-- Añadiendo fondo desde el body --}}
-<body background="https://media-exp1.licdn.com/dms/image/C561BAQHmlmXvfOL6CQ/company-background_10000/0/1603841461669?e=1643673600&v=beta&t=NuPcHViBUd80XzCEEAKLuy0IBtZyg56QtPULehhywNg">
+<body background="/bg.jfif">
     {{-- La sección del body --}}
 
     {{-- Sección del login, registrarse, y panel y salir se recomienda comentar en producción --}}
