@@ -10,6 +10,8 @@
 		<h1 class="display-5 fw-bold">Punto de venta web</h1>
 		<p class="col-md-8 fs-4">Punto de venta creado en php usando laravel, muy siemple aun, vamos en desarrollo</p>
 		<button class="btn btn-primary btn-lg" type="button">Web oficial del proyecto</button>
+        <p> https://ventasweb.ml </p>
+        
 	</div>
 </div>
 
@@ -24,18 +26,18 @@
 	<div class="col-md-6">
 		<div class="h-100 p-5 bg-light border rounded-3">
 			<h2>Contribuciones</h2>
-			<p>Actualmente el proyecto se encuentra enpezando por lo que si quieres aportar eres bienvenido</p>
+			<p>Actualmente el proyecto se encuentra empezando por lo que si quieres aportar eres bienvenido</p>
 			<button href="ventasweb.ml" class="btn btn-outline-secondary" type="button">Ejemplos</button>
             <h2>Actulizaciones</h2>
-			<p>Las actualizaciones serán constantes, en la version develp, solo las caracteristicas ya probadas y estables serás subidas a la rama principal </p>
-            <h2>Contactame </h2>
+			<p>Las actualizaciones serán constantes, en la versión develop, solo las caracteristicas ya probadas y estables serás subidas a la rama principal </p>
+            <h2>Contáctame </h2>
 			<p>Si quieres asesoria y/o soporte contáctame</p>
 		</div>
 	</div>
 </div>
 
 <footer class="pt-3 mt-4 text-muted border-top">
-	Derechos reservados &copy; 2021
+	Derechos reservados &copy; 2021 - 2022
 </footer>
 
 
