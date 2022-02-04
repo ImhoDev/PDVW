@@ -24,14 +24,18 @@
 	<div class="col-md-6">
 		<div class="h-100 p-5 bg-light border rounded-3">
 			<h2>Contribuciones</h2>
-			<p>Actualmente el proyecto se encuentra enpezando por lo que si quieres aportar ere bienvenido</p>
-			<button href="puntodeventaweb.ml" class="btn btn-outline-secondary" type="button">Ejemplos</button>
+			<p>Actualmente el proyecto se encuentra enpezando por lo que si quieres aportar eres bienvenido</p>
+			<button href="ventasweb.ml" class="btn btn-outline-secondary" type="button">Ejemplos</button>
+            <h2>Actulizaciones</h2>
+			<p>Las actualizaciones serán constantes, en la version develp, solo las caracteristicas ya probadas y estables serás subidas a la rama principal </p>
+            <h2>Contactame </h2>
+			<p>Si quieres asesoria y/o soporte contáctame</p>
 		</div>
 	</div>
 </div>
 
 <footer class="pt-3 mt-4 text-muted border-top">
-	Sin derechos &copy; 2021
+	Derechos reservados &copy; 2021
 </footer>
 
 
@@ -42,13 +46,15 @@ Pasos para inmplementar el proyecto
 <p>1-. Descargar/instalar laragon</p>
 <p>2-. Decargar/instalar git</p>
 <p>3-. Abrir git en el directorio www de laragon</p>
-<p>4-. clonar repositorio "git clone https://github.com/ImhoDev/puntodeventaweb.git"</p>
-<p>5-. Desde la terminal de laragon/puntodeventaweb instalar las dependencias de PHP "composer install"</p>
-<p>6-. Desde la terminal de laragon/puntodeventaweb instalar las dependencias de JS "npm install && npm run dev"</p>
-<p>7-. Crear la base de datos "puntodeventaweb" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE puntodeventaweb;"</p>
+<p>4-. clonar repositorio "git clone https://github.com/ImhoDev/ventasweb.git"</p>
+<p>5-. Desde la terminal de laragon/ventasweb instalar las dependencias de PHP "composer install"</p>
+<p>6-. Desde la terminal de laragon/ventasweb instalar las dependencias de JS "npm install && npm run dev"</p>
+<p>7-. Crear la base de datos "ventasweb" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE puntodeventaweb;"</p>
 <p>8-. Duplicar y renombrar .env.example a .env</o>
 <p>9-. Configurar el archivo .env con los datos de mysql</p>
 <p>10-. Reinciar laragon desde la consola con "reload laragon" desde el escritorio principal de laragon que habitualmente es C:\laragon </p>
-<p>11-. Vistar "http://puntodeventaweb.test" desde cualquier navegador.</p>
+<p>11-. Vistar "http://ventasweb.test" desde cualquier navegador.</p>
 <p>12-. Vemos que sale un error, hay que generar el key ejecuentado "php artisan key:generate"</p>
 <p>13-. Sale error porque no hemos realizado las migraciones, para solucionar ejecutar las migraciones. </p>
+<p>14-. El el proyecto ya deberia de estár corriendo en http://ventasweb.test
+
