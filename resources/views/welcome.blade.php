@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html dir="ltr" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <!-- Metas -->
@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Document Title -->
     <title>Ventas Web - control de inventario, POS & HRM</title>
-    <meta name="description" content="Ventas Web simplifica su inventario, ventas, compras, gastos, contabilidad, administración de empleados y mucho más. Haga ventas, obtenga ganancias, use SalePro" />
+    <meta name="description" content="VentasWeb simplifica su inventario, ventas, compras, gastos, contabilidad, administración de empleados y mucho más. Haga ventas, obtenga ganancias, use VentasWeb" />
     <meta name="author" content="Lake-Coders" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="https://salepropos.com/demo/public/vendor/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://salepropos.com/css/style.css"/>
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
     {{-- Añadiendo fondo desde el body --}}
 <body background="/bg.jfif">
