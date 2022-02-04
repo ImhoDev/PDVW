@@ -1,0 +1,54 @@
+h1{
+    line-height: 1.5;
+    font-size: 28px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.btn-primary {
+    background-color: #7c5cc4;
+    border-color: #7c5cc4;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #FFF;
+    border-color: #7c5cc4;
+    color: #7c5cc4;
+}
+
+.btn-default {
+    border-color: #83b348;
+    border-radius: 0;
+    background-color: #83b348;
+    color: #FFF;
+}
+
+.btn-default:hover {
+    background-color: #FFF;
+    border-color: #83b348;
+    color: #83b348;
+}
+
+.btn-warning {
+    border-color: #ffc107;
+    border-radius: 0;
+    background-color: #ffc107;
+    color: #FFF;
+}
+
+.btn-warning:hover {
+    background-color: #FFF;
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+.thin-text {
+    font-weight: 300;
+}
+

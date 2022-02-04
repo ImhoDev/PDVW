@@ -11,10 +11,6 @@
 		<p class="col-md-8 fs-4">Punto de venta creado en php usando laravel, muy siemple aun, vamos en desarrollo</p>
 		<button class="btn btn-primary btn-lg" type="button">Web oficial del proyecto</button>
         <p> https://ventasweb.ml </p>
-        
-	</div>
-</div>
-
 <div class="row align-items-md-stretch">
 	<div class="col-md-6">
 		<div class="h-100 p-5 text-white bg-dark rounded-3">
@@ -59,8 +55,5 @@ Pasos para inmplementar el proyecto
 <p>12-. Vemos que sale un error, hay que generar el key ejecuentado "php artisan key:generate"</p>
 <p>13-. Sale error porque no hemos realizado las migraciones, para solucionar ejecutar las migraciones. </p>
 <p>14-. Generar las migraciones
-</div> php artisan migrate    
+	php artisan migrate    
 <p>15-. El el proyecto ya deberia de estár corriendo en http://ventasweb.test
-
-
-
