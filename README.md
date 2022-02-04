@@ -26,9 +26,9 @@
 	<div class="col-md-6">
 		<div class="h-100 p-5 bg-light border rounded-3">
 			<h2>Contribuciones</h2>
-			<p>Actualmente el proyecto se encuentra empezando por lo que si quieres aportar eres bienvenido</p>
+			<p>Actualmente el proyecto se encuentra en proceso de desarrollo, por lo que si quieres aportar eres bienvenido</p>
 			<button href="ventasweb.ml" class="btn btn-outline-secondary" type="button">Ejemplos</button>
-            <h2>Actulizaciones</h2>
+            <h2>Actualizaciones</h2>
 			<p>Las actualizaciones serán constantes, en la versión develop, solo las caracteristicas ya probadas y estables serás subidas a la rama principal </p>
             <h2>Contáctame </h2>
 			<p>Si quieres asesoria y/o soporte contáctame</p>
