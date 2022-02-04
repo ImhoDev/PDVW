@@ -51,12 +51,16 @@ Pasos para inmplementar el proyecto
 <p>4-. clonar repositorio "git clone https://github.com/ImhoDev/ventasweb.git"</p>
 <p>5-. Desde la terminal de laragon/ventasweb instalar las dependencias de PHP "composer install"</p>
 <p>6-. Desde la terminal de laragon/ventasweb instalar las dependencias de JS "npm install && npm run dev"</p>
-<p>7-. Crear la base de datos "ventasweb" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE puntodeventaweb;"</p>
+<p>7-. Crear la base de datos "ventasweb" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE ventasweb;"</p>
 <p>8-. Duplicar y renombrar .env.example a .env</o>
 <p>9-. Configurar el archivo .env con los datos de mysql</p>
 <p>10-. Reinciar laragon desde la consola con "reload laragon" desde el escritorio principal de laragon que habitualmente es C:\laragon </p>
 <p>11-. Vistar "http://ventasweb.test" desde cualquier navegador.</p>
 <p>12-. Vemos que sale un error, hay que generar el key ejecuentado "php artisan key:generate"</p>
 <p>13-. Sale error porque no hemos realizado las migraciones, para solucionar ejecutar las migraciones. </p>
-<p>14-. El el proyecto ya deberia de estár corriendo en http://ventasweb.test
+<p>14-. Generar las migraciones
+</div> php artisan migrate    
+<p>15-. El el proyecto ya deberia de estár corriendo en http://ventasweb.test
+
+
 
