@@ -80,9 +80,12 @@
     {{-- Sección del footer --}}
     <section class="mt-5 mb-2 text-center">
         <div class="container">
-            <spam>Ventas<b>Web</b> beta-v0.5 está desarrollado con </spam> 
+            <spam><b>{{ config('app.name') }}</b> Versión v{{ PHP_VERSION }} </spam> 
             <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                 Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+            </div>
+            <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
+                Copyright © 2020 - {{date("Y");}}
             </div>
         </div>
     </section>    
