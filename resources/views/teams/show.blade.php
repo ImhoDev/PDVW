@@ -1,4 +1,4 @@
-@extends('adminlte::page')
+@extends('layoutlte')
 @section('content')
 <x-app-layout>
     <x-slot name="header">

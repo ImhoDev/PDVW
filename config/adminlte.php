@@ -386,7 +386,7 @@ return [
         ],
         [
             'text' => 'change_password',
-            'url'  => 'Team Settings',
+            'url'  => '/teams',
             'icon' => 'fas fa-fw fa-lock',
         ],
         ['header' => 'labels'],

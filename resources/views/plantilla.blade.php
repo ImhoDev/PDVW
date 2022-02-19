@@ -1,23 +1,8 @@
-@extends('adminlte::page')
-
-@section('title', 'tablero')
-
-@section('content_header')
-@stop
-
-@yield('content')
-
-@section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
-@stop
-
-@section('js')
-    <script> console.log('Hi!'); </script>
-@stop
-<footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.0.0
-    </div>
-    <strong>Copyright © 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
-    reserved.
-</footer>
+@extends('layoutlte')
+@section('title', 'Plantilla adminLTE')
+@section('content_header', 'bienvenido a plantilla')
+@section('content')
+  <div class="content"></div>
+          <p><a href="https://solicitudes.bancofalabella.pe/?utm_source=linio&utm_medium=productpage&utm_campaign=web&referral=linio" target="_blank"><strong>¡Aprovecha las Oportunidades Únicas de CMR Visa! </strong> Pídela hoy y participa en el sorteo diario de 1 Tablet Lenovo.  <strong>¡Solicitala AQUÍ!</strong></a></p>
+  </div>
+@endsection

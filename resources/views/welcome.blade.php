@@ -58,21 +58,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h1 class="mt-5 mt-3 thin-text" style="line-height: 1.5;font-size: 28px;">Ventas Web, simplifica su inventario, ventas, compras, gastos, contabilidad, administración de empleados y mucho más. Haga ventas, obtenga ganancias, use ventas web</h1>
+                    <h1 class="mt-5 mt-3 thin-text" style="line-height: 1.5;font-size: 28px; text-shadow: 1px 1px #0f000f;">Ventas Web, simplifica su inventario, ventas, compras, gastos, contabilidad, administración de empleados y mucho más. Haga ventas, obtenga ganancias, use ventas web</h1>
                     <a target="_blank" class="btn btn-primary btn-lg mt-3" href="admin">Demostración</a>
                     <a target="_blank" class="btn btn-default btn-lg mt-3 ml-1" href="https://github.com/ImhoDev/ventasweb.git">Repositorio</a>
                     <a target="_blank" class="btn btn-warning btn-lg mt-3" href="mailto:support@lake-coders.com">Soporte</a>
                     <a target="_blank" class="btn btn-primary btn-lg mt-3" href="/public/read_me/">Documentación</a>
+                </div>
+                <div class="col-md-8 offset-md-2">
                     <a target="_blank" class="btn btn-info btn-lg mt-3 ml-1"href="/buy">
                        <svg width="15px" height="15px" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
                                 <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                        </svg>
-                    Comprar</a>
+                        </svg> Comprar</a>
                     <a target="_blank" class="btn btn-danger btn-lg mt-3" href="/patreon">
                          <svg width="15px" height="15px" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-1 -mt-px w-5 h-5 text-gray-400">
                                 <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                        </svg>
-                    Patrocinar</a>
+                        </svg> Patrocinar</a>
                 </div>
             </div>
         </div>
