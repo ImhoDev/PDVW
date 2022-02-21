@@ -12,9 +12,15 @@
 @stop
 @section('css')
     {{-- Colocar estilos adicionales aquí--}}
-    <link rel="stylesheet" href="/css/admin_custom.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    @livewireStyles
 @stop
 @section('js')
     {{-- Colocar scrips adicionales aquí--}}
-    <script> console.log('Hi!'); </script>
+    <!-- Scripts -->
+    <script src="{{ mix('js/app.js') }}" defer></script>
+    @livewireScripts
 @stop

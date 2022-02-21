@@ -85,9 +85,9 @@ return [
 
     'layout_topnav' => null,
     'layout_boxed' => null,
-    'layout_fixed_sidebar' => 'fixed',
+    'layout_fixed_sidebar' => 'enabled',
     'layout_fixed_navbar' => true,
-    'layout_fixed_footer' => 'fixed',
+    'layout_fixed_footer' => true,
     'layout_dark_mode' => null,
 
     /*
@@ -194,7 +194,7 @@ return [
     'register_url' => 'register',
     'password_reset_url' => 'reset-password',
     'password_email_url' => 'forgot-password',
-    'profile_url' => false,
+    'profile_url' => 'user/profile',
 
     /*
     |--------------------------------------------------------------------------
@@ -247,7 +247,7 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Inicio',
+            'text'        => 'Tablero',
             'url'         => 'admin',
             'icon'        => 'nav-icon fas fa-tachometer-alt',
             'label'       => 1,
@@ -260,14 +260,17 @@ return [
                 [
                     'text' => 'Nueva venta',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Ventas por mayor',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Historial de Ventas',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
@@ -278,10 +281,12 @@ return [
                 [
                     'text' => 'Nueva compra',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Historial de compras',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
@@ -292,14 +297,17 @@ return [
                 [
                     'text' => 'Productos',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Servicios',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Categorias',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
@@ -310,14 +318,17 @@ return [
                 [
                     'text' => 'Productos en almacen',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Kardex',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Inventario actual',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
@@ -328,10 +339,12 @@ return [
                 [
                     'text' => 'Reporte de ventas',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Reporte de compras',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
@@ -342,14 +355,17 @@ return [
                 [
                     'text' => 'Clientes',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Proveedores',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Usuarios',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
@@ -360,20 +376,23 @@ return [
                 [
                     'text' => 'Idioma',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Horario',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
                 [
                     'text' => 'Componentes',
                     'url'  => '#',
+                    'shift'   => 'ml-3',
                 ],
             ],
         ],
         [
-            'text'        => 'pages',
-            'url'         => '#',
+            'text'        => 'Páginas',
+            'url'         => 'plantilla',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
@@ -394,16 +413,19 @@ return [
             'text'       => 'important',
             'icon_color' => 'red',
             'url'        => '#',
+            'icon'       => 'fas fa-fw fa-exclamation-triangle',
         ],
         [
             'text'       => 'warning',
             'icon_color' => 'yellow',
             'url'        => '#',
+            'icon'       => 'fas fa-fw fa-exclamation-triangle',
         ],
         [
             'text'       => 'information',
             'icon_color' => 'cyan',
             'url'        => '#',
+            'icon'       => 'fas fa-fw fa-exclamation-triangle',
         ],
     ],
 
