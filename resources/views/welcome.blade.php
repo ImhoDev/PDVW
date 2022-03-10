@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <h1 class="mt-5 mt-3 thin-text" style="line-height: 1.5;font-size: 28px; text-shadow: 1px 1px #0f000f;">Ventas Web, simplifica su inventario, ventas, compras, gastos, contabilidad, administración de empleados y mucho más. Haga ventas, obtenga ganancias, use ventas web</h1>
-                    <a target="_blank" class="btn btn-primary btn-lg mt-3" href="admin">Demostración</a>
+                    <a target="_blank" class="btn btn-primary btn-lg mt-3" href="plantilla">Demostración</a>
                     <a target="_blank" class="btn btn-default btn-lg mt-3 ml-1" href="https://github.com/ImhoDev/ventasweb.git">Repositorio</a>
                     <a target="_blank" class="btn btn-warning btn-lg mt-3" href="mailto:support@lake-coders.com">Soporte</a>
                     <a target="_blank" class="btn btn-primary btn-lg mt-3" href="/public/read_me/">Documentación</a>
