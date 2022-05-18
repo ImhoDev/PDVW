@@ -18,9 +18,12 @@ class CreateCompraDetallesTable extends Migration
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_unicode_ci';
             $table->id();
-            $table->integer('compra_id')->index('compra_id');
-            $table->integer('producto_id')->index('producto_id');
-            $table->integer('medida_id')->index('medida_id');
+            $table->foreignId('compra_id')->nullable()->constrained()->cascadeOnDelete();
+            //$table->integer('compra_id')->index('compra_id');
+            $table->foreignId('producto_id')->nullable()->constrained()->cascadeOnDelete();
+            //$table->integer('producto_id')->index('producto_id');
+            $table->foreignId('medida_id')->nullable()->constrained()->cascadeOnDelete();
+            //$table->integer('medida_id')->index('medida_id');
             $table->dateTime('fecha', $precision = 0);
             $table->float('precio', 10, 0)->default('0');
             $table->float('impuesto', 10, 0)->default('0');

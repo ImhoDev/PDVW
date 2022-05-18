@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Proveedore extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+
+    protected $hidden = [
+        'id',
+    ];
 }

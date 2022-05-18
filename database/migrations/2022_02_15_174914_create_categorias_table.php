@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMedidasTable extends Migration
+class CreateCategoriasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,18 +13,20 @@ class CreateMedidasTable extends Migration
      */
     public function up()
     {
-        Schema::create('medidas', function (Blueprint $table) {
+        Schema::create('categorias', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_unicode_ci';
             $table->id();
             $table->string('nombre', 120);
-            $table->string('abreviatura', 10);
-            $table->integer('medida_base')->nullable()->index('medida_id');
-            $table->string('operador', 10);
-            $table->double('operador_valor');
+            $table->string('codigo', 120);
+            //$table->integer('categoria_padre', 120);
+            //$table->integer('categoria_id')->unsigned()->nullable()->index();
             $table->timestamps(6);
             $table->softDeletes();
+
+            //$table->foreign('categoria_id')->references('id')->on('categorias')->onDelete('cascade');
+
         });
     }
 
@@ -35,6 +37,6 @@ class CreateMedidasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('medidas');
+        Schema::dropIfExists('categorias');
     }
 }

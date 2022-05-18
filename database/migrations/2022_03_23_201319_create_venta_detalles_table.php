@@ -18,9 +18,12 @@ class CreateVentaDetallesTable extends Migration
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_unicode_ci';
             $table->id();
-            $table->integer('categoria_id')->index('categoria_id');
-            $table->integer('producto_id')->index('producto_id');
-            $table->integer('medida_id')->index('medida_id');
+            $table->foreignId('venta_id')->nullable()->constrained()->cascadeOnDelete();
+            //$table->integer('venta_id')->index('venta_id');
+            $table->foreignId('producto_id')->nullable()->constrained()->cascadeOnDelete();
+            //$table->integer('producto_id')->index('producto_id');
+            $table->foreignId('medida_id')->nullable()->constrained()->cascadeOnDelete();
+            //$table->integer('medida_id')->index('medida_id');
             $table->dateTime('fecha', $precision = 0);
             $table->float('precio', 10, 0)->nullable()->default('0');
             $table->float('impuesto', 10, 0)->nullable()->default('0');
