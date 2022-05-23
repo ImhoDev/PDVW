@@ -7,3 +7,5 @@ Route::get('', [HomeController::class, 'index']);
 Route::middleware(['auth:sanctum', 'verified'])->get('admin', function () {
     return view('admin');
 })->name('admin');
+
+Route::resource('users', UserController::class);

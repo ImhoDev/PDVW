@@ -22,8 +22,9 @@ class CreateMedidasTable extends Migration
             $table->string('codigo_sunat', 10);
             //$table->integer('medida_base')->nullable()->index('medida_id');
             //$table->integer('medida_id')->unsigned()->nullable()->index();
-            $table->string('operador', 10);
-            $table->double('operador_valor');
+            $table->boolean('active');
+            $table->string('operador', 10)->nullable();
+            $table->double('operador_valor')->nullable();
             $table->timestamps(6);
             $table->softDeletes();
 

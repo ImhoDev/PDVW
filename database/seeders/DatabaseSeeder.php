@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use Illuminate\Support\Facades\DB;
+
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -14,19 +16,22 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-            DB::table('cat_unit_types')->insert([
-            ['id' => 'ZZ',  'active' => true, 'symbol' => null, 'description' => 'Servicio'],
-            ['id' => 'BX',  'active' => true, 'symbol' => null, 'description' => 'Caja'],
-            ['id' => 'GLL', 'active' => true, 'symbol' => null, 'description' => 'Galones'],
-            ['id' => 'GRM', 'active' => true, 'symbol' => null, 'description' => 'Gramos'],
-            ['id' => 'KGM', 'active' => true, 'symbol' => null, 'description' => 'Kilos'],
-            ['id' => 'LTR', 'active' => true, 'symbol' => null, 'description' => 'Litros'],
-            ['id' => 'MTR', 'active' => true, 'symbol' => null, 'description' => 'Metros'],
-            ['id' => 'FOT', 'active' => true, 'symbol' => null, 'description' => 'Pies'],
-            ['id' => 'INH', 'active' => true, 'symbol' => null, 'description' => 'Pulgadas'],
-            ['id' => 'NIU', 'active' => true, 'symbol' => null, 'description' => 'Unidades'],
-            ['id' => 'YRD', 'active' => true, 'symbol' => null, 'description' => 'Yardas'],
-            ['id' => 'HUR', 'active' => true, 'symbol' => null, 'description' => 'Hora'],
+        DB::table('users')->insert([
+            ['name' => 'master',  'email' => 'master@master.com', 'password' => bcrypt('master'), 'remember_token' => null],
+        ]);
+        DB::table('medidas')->insert([
+            ['nombre' => 'Servicio', 'codigo_sunat' => 'ZZ',  'active' => true],
+            ['nombre' => 'Caja', 'codigo_sunat' => 'BX',  'active' => true],
+            ['nombre' => 'Galones', 'codigo_sunat' => 'GLL', 'active' => true],
+            ['nombre' => 'Gramos', 'codigo_sunat' => 'GRM', 'active' => true],
+            ['nombre' => 'Kilos', 'codigo_sunat' => 'KGM', 'active' => true],
+            ['nombre' => 'Litros', 'codigo_sunat' => 'LTR', 'active' => true],
+            ['nombre' => 'Metros', 'codigo_sunat' => 'MTR', 'active' => true],
+            ['nombre' => 'Pies', 'codigo_sunat' => 'FOT', 'active' => true],
+            ['nombre' => 'Pulgadas', 'codigo_sunat' => 'INH', 'active' => true],
+            ['nombre' => 'Unidades', 'codigo_sunat' => 'NIU', 'active' => true],
+            ['nombre' => 'Yardas', 'codigo_sunat' => 'YRD', 'active' => true],
+            ['nombre' => 'Hora', 'codigo_sunat' => 'HUR', 'active' => true],
         ]);
 
     }
